@@ -29,10 +29,12 @@
 * 全局异常处理
     
     全局异常抛出
+    ```
     注解拦截Controller @ControllerAdvice
-    对应异常处理@ExceptionHandler
+    对应异常处理 @ExceptionHandler
+    ```
+* 启动参数
+    打包跳过测试 -Dmaven.test.skip=true 
 
-打包跳过测试 -Dmaven.test.skip=true 
-
-打包指定环境-Dspring.profile.active=dev
+    打包指定环境-Dspring.profile.active=dev
   
